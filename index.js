@@ -44,7 +44,7 @@ app.get("/api/:paramsname", (req, res) => {
     // console.log(req.params)
     console.log(req.params.paramsname)
     // res.send(req.params.paramsname)
-    res.json(heros[req.params.egal])
+    res.json(heros[req.params.paramsname])
 })
 
 app.use((req, res) => {
